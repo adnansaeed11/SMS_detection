@@ -18,7 +18,7 @@ def text_transform(text):
 
   li = []
   for i in text:
-    if .isalnum():
+    if i.isalnum():
       li.append(i)
 
   text = li.copy()
