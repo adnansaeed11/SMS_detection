@@ -69,7 +69,7 @@ if txt:
     prediction = model.predict(transformed_sms)[0]
 
     # display
-    st.markdown('## SPAM' if prediction == 1 else '## NOT SPAM')
+    st.markdown('## SPAM 🚨' if prediction == 1 else '## NOT SPAM 🎉')
 
 elif st.button('Predict'):
   st.markdown('### Put your text ⤴')
