@@ -7,7 +7,8 @@ from nltk.stem import PorterStemmer
 
 # Download required NLTK data
 nltk.download('stopwords')
-nltk.download('punkt')
+# nltk.download('punkt')
+nltk.download('punkt_tab')
 
 tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
